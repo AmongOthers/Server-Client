@@ -22,6 +22,8 @@ public class Client {
 		while(true) {
 			String line = consoleReader.readLine();
 			writer.write(line);
+			writer.newLine();
+			writer.flush();
 		}
 	}
 
